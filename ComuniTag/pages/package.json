@@ -13,3 +13,8 @@
     "mongodb": "^5.7.0"
   }
 }
+"scripts": {
+  "dev": "next dev",
+  "build": "next build",
+  "start": "next start"
+}
