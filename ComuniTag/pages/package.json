@@ -1,5 +1,5 @@
 {
-  "name": "esp32-mongodb-vercel",
+  "name": "esp32-mongodb-api",
   "version": "1.0.0",
   "scripts": {
     "dev": "next dev",
@@ -7,9 +7,9 @@
     "start": "next start"
   },
   "dependencies": {
-    "mongodb": "^5.7.0",
     "next": "^13.5.2",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "mongodb": "^5.7.0"
   }
 }
