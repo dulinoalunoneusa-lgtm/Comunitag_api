@@ -19,8 +19,8 @@ export default async function handler(req, res) {
   if (req.method === "POST") {
     try {
       const dbClient = await clientPromise;
-      const db = dbClient.db("meubanco"); // Substitua pelo nome do seu DB
-      const collection = db.collection("sensores"); // Coleção que vai armazenar os dados
+      const db = dbClient.db("ComuniTag"); // Substitua pelo nome do seu DB
+      const collection = db.collection("Alunos"); // Coleção que vai armazenar os dados
 
       const data = req.body;
       if (!data) {
